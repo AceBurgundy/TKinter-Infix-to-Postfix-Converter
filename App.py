@@ -127,6 +127,8 @@ if __name__ == '__main__':
 
     root = tkinter.Tk()
 
+    root.iconphoto(False, PhotoImage(file="switch.png"))
+
     root.title("Infix to Postfix Converter")
 
     style = ttk.Style()
